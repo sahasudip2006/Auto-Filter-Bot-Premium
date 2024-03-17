@@ -126,7 +126,7 @@ if len(URL) == 0:
 else:
     if URL.startswith(('https://', 'http://')):
         if not URL.endswith("https://auto-filter-bot-premium.onrender.com/"):
-            URL += '/'
+            URL += 'https://auto-filter-bot-premium.onrender.com/'
     elif is_valid_ip(URL):
         URL = f'http://{URL}/'
     else:
