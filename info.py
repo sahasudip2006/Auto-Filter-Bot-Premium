@@ -128,7 +128,7 @@ else:
         if not URL.endswith("https://auto-filter-bot-premium.onrender.com/"):
             URL += 'https://auto-filter-bot-premium.onrender.com/'
     elif is_valid_ip(URL):
-        URL = f'http://{URL}/'
+        URL = f'https://auto-filter-bot-premium.onrender.com/'
     else:
         print('Error - URL is not valid, exiting now')
         exit()
