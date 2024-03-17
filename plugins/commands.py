@@ -562,7 +562,7 @@ async def remove_premium_cmd_handler(client, message):
 @Client.on_message(filters.command("plans"))
 async def plans_cmd_handler(client, message):                
     btn = [            
-        [InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url="t.me/Rk_botowner")],
+        [InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url="https://t.me/Sudip_Tricks")],
         [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
     ]
     reply_markup = InlineKeyboardMarkup(btn)
