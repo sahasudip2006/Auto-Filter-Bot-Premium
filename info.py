@@ -76,11 +76,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "dahif89943")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+NAo_2MOcuoE4N2Q1')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Sudip_Tricks')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Premium_Hindi_Movie')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Ott_Movie_Request_Group")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Ott_Movie_Request_Group")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
