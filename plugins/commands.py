@@ -51,7 +51,7 @@ async def start(client, message):
             InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
             InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
         ],[
-            InlineKeyboardButton('👤 ᴏᴡɴᴇʀ', callback_data='my_owner'),
+            InlineKeyboardButton('👤 Developer', callback_data='my_owner'),
         ],[
             InlineKeyboardButton('👨‍🚒 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='my_about'),
