@@ -23,11 +23,11 @@ if len(API_ID) == 0:
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '376d2b9215aad81b9522afccd1067786') #api hash of your telegram id
+API_HASH = environ.get('API_HASH', '13853df234b2fbe18d9027a5985cc69e) #api hash of your telegram id
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '5847021810:AAHXTSalYL8Yyt02TEnGKYsMdOewPtdnKDM') #bot token from botfather
+BOT_TOKEN = environ.get('BOT_TOKEN', '6752752647:AAFOZg2KXRRsZgUURXI8d0PY9lGDLPBJcq8') #bot token from botfather
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -90,7 +90,7 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english 
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "onepagelink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "f646357aa129cfbd7eb59bcba428096ab54ca950")
+SHORTLINK_API = environ.get("SHORTLINK_API", "f646357aa129cfbd7eb59bcba428096ab54ca950"'files')
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
