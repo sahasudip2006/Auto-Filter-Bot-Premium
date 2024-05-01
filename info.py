@@ -23,7 +23,7 @@ if len(API_ID) == 0:
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '13853df234b2fbe18d9027a5985cc69e) #api hash of your telegram id
+API_HASH = environ.get('API_HASH', '13853df234b2fbe18d9027a5985cc69e') #api hash of your telegram id
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
